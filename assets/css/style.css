@@ -61,6 +61,7 @@ h2{
   padding: 25px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
+  margin-bottom: 150px;
 }
 
 p{
@@ -202,16 +203,17 @@ input[type=submit]{
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -120px;
+  margin: 0 auto -140px;
 }
 
 .push{
-  height: 120px;
+  height: 140px;
 }
 
 .footer{
+  position: fixed;
+  bottom: 0px;
   z-index: 1 !important;
-  float: left;
   clear: both;
   text-align: center;
   border-top: 10px solid #4aaaa5;
