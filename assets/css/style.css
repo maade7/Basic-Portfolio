@@ -82,7 +82,7 @@ h3{
   text-align: center;
   position: relative;
   left: -270px;
-  top: 100px;
+  top: 120px;
   float: left;
   width: 240px;
   text-decoration: none;
@@ -97,13 +97,17 @@ h4{
   text-align: center;
   position: relative;
   left: 270px;
-  top: -100px;
+  top: -80px;
   float: right;
   width: 240px;
   text-decoration: none;
   color: #ffffff;
   padding: 15px;
   background-color: #4aaaa5;
+}
+
+h3:hover, h4:hover{
+  background-color: #777777;
 }
 
 #hangman{
