@@ -1,31 +1,38 @@
 *{
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
-html, body {
+body {
+  display: inline;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   background-image: url("../images/gplaypattern.png");
   background-color: #333333;
-  width: 960;
   height: 100%;
+  clear: both;
+}
+
+#headerBG{
+  width: 100%;
+  background: #ffffff;
+  overflow: auto;
+  border-bottom: 5px solid #777777;
+  height: 86px;
 }
 
 header{
-  background: #ffffff;
-  overflow: auto;
-  clear: both;
   width: 100%;
-  border-bottom: 5px solid #777777;
+  clear: both;
+  overflow: auto;
   margin-bottom: 50px;
 }
 
 .nav{
   text-decoration: none;
   color: #777777;
-  padding: 34px 10px 34px 10px;
+  padding: 34px 0px 34px 10px;
   border-bottom: 5px;
   border-color: #cccccc;
   float: right;
@@ -37,9 +44,8 @@ h1{
   color: #ffffff;
   padding: 25px;
   width: 200px;
-  text-align: center;
-  position: absolute;
-  left: 100px;
+  float: left;
+  margin: 0px 350px 0px 0px;
 }
 
 h2{
@@ -50,18 +56,14 @@ h2{
   border-bottom: 3px solid #777777;
 }
 
-#textContact{
-  padding-right: 100px;
-}
 
 .main{
-  width: 600px;
-  position: absolute;
-  left: 100px;
+  float: left;
+  width: 598px;
   padding: 25px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
-  margin-bottom: 150px;
+  margin: 0px 0px 150px 0px;
 }
 
 p{
@@ -140,33 +142,32 @@ h4{
 
 .sidebar{
   float: left;
-  width: 270px;
-  position: absolute;
-  right: 100px;
+  width: 218px;
   padding: 25px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
+  margin-left: 40px;
 }
 
 #Github{
   position: relative;
-  right: 5px;
-  height: 90px;
-  width: 90px;
+  right: 3px;
+  height: 73px;
+  width: 73px;
 }
 
 #Linkedin{
   position: relative;
-  right: 3px;
-  height: 90px;
-  width: 90px;
+  right: 2px;
+  height: 73px;
+  width: 73px;
 }
 
 #Stackoverflow{
   position: relative;
   bottom: 5px;
-  height: 80px;
-  width: 80px;
+  height: 63px;
+  width: 63px;
 }
 
 
@@ -200,6 +201,9 @@ input[type=submit]{
 }
 
 .wrapper {
+  position: relative;
+  top: -91px;
+  width: 960px;
   min-height: 100%;
   height: auto !important;
   height: 100%;
